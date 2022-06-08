@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="engine\Core\Memory\BasicModuleInfo.cpp" />
+    <ClCompile Include="engine\Core\Memory\Memory.cpp" />
+    <ClCompile Include="engine\Core\Memory\Pattern.cpp" />
+    <ClCompile Include="engine\Engine.cpp" />
+    <ClCompile Include="engine\Render\DrawImplDX.cpp" />
+    <ClCompile Include="engine\Render\font\TTFFont.cpp" />
+    <ClCompile Include="engine\Render\font\TTFMath.cpp" />
+    <ClCompile Include="engine\Render\font\TTFTriangulator2D.cpp" />
+    <ClCompile Include="engine\Render\font\TTFTypes.cpp" />
+    <ClCompile Include="engine\Render\Menu\Gui.cpp" />
+    <ClCompile Include="engine\Render\Render.cpp" />
+    <ClCompile Include="file_tools.cpp" />
+    <ClCompile Include="gmod_specific\Functional\Aimbot.cpp" />
+    <ClCompile Include="gmod_specific\Functional\AntiAim.cpp" />
+    <ClCompile Include="gmod_specific\Functional\Dudos.cpp" />
+    <ClCompile Include="gmod_specific\Functional\EffectHook.cpp" />
+    <ClCompile Include="gmod_specific\Functional\Esp1.cpp" />
+    <ClCompile Include="gmod_specific\Functional\FriendList.cpp" />
+    <ClCompile Include="gmod_specific\Functional\LagCompensation.cpp" />
+    <ClCompile Include="gmod_specific\Functional\Misc.cpp" />
+    <ClCompile Include="gmod_specific\Functional\net_logger.cpp" />
+    <ClCompile Include="gmod_specific\Functional\ServerAnimations.cpp" />
+    <ClCompile Include="gmod_specific\Functional\Teams.cpp" />
+    <ClCompile Include="gmod_specific\Hooks\Handles\PostDataUpdate.cpp" />
+    <ClCompile Include="gmod_specific\Hooks\Handles\SendDatagram.cpp" />
+    <ClCompile Include="gmod_specific\Hooks\Handles\SendNetMsg.cpp" />
+    <ClCompile Include="gmod_specific\Hooks\Hooks.cpp" />
+    <ClCompile Include="gmod_specific\SDK.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Engine\buf.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Engine\checksum.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Engine\CRC.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Engine\Glow_outline_effect.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Engine\KeyValues.cpp" />
+    <ClCompile Include="gmod_specific\Math\core.cpp" />
+    <ClCompile Include="gmod_specific\Math\qangle.cpp" />
+    <ClCompile Include="gmod_specific\Math\vector.cpp" />
+    <ClCompile Include="gmod_specific\Math\vector2d.cpp" />
+    <ClCompile Include="gmod_specific\Math\vector4d.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Entity.cpp" />
+    <ClCompile Include="gmod_specific\SDK\Lua\Lua_shit.cpp" />
+    <ClCompile Include="gmod_specific\Util\netprop_manager.cpp" />
+    <ClCompile Include="include\stdafx.cpp" />
+    <ClCompile Include="lua_features.cpp" />
+    <ClCompile Include="main\main.cpp" />
+    <ClCompile Include="gmod_specific\Functional\MovementRecorder.cpp" />
+    <ClCompile Include="aye.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_freetype.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_stdlib.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\TextEditor.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\im_tools.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aye.h" />
+    <ClInclude Include="engine\Core\Basic\Basic.h" />
+    <ClInclude Include="engine\Render\Color.h" />
+    <ClInclude Include="engine\Core\Memory\BasicModuleInfo.h" />
+    <ClInclude Include="engine\Core\Memory\Memory.h" />
+    <ClInclude Include="engine\Core\Memory\Pattern.h" />
+    <ClInclude Include="engine\Core\Basic\timer.h" />
+    <ClInclude Include="engine\Core\Var\decl_member.h" />
+    <ClInclude Include="engine\Core\Var\decl_var.h" />
+    <ClInclude Include="engine\Core\Memory\VTHook.h" />
+    <ClInclude Include="engine\Engine.h" />
+    <ClInclude Include="engine\Core\Basic\Singleton.h" />
+    <ClInclude Include="engine\Render\DrawImplDX.h" />
+    <ClInclude Include="engine\Render\FontData.h" />
+    <ClInclude Include="engine\Render\font\FontData.h" />
+    <ClInclude Include="engine\Render\font\TTF.h" />
+    <ClInclude Include="engine\Render\font\TTFFont.h" />
+    <ClInclude Include="engine\Render\font\TTFMath.h" />
+    <ClInclude Include="engine\Render\font\TTFTriangulator2D.h" />
+    <ClInclude Include="engine\Render\font\TTFTriangulator2DLinear.h" />
+    <ClInclude Include="engine\Render\font\TTFTriangulator3D.h" />
+    <ClInclude Include="engine\Render\font\TTFTriangulator3DBezel.h" />
+    <ClInclude Include="engine\Render\font\TTFTypes.h" />
+    <ClInclude Include="engine\Render\Menu\Gui.h" />
+    <ClInclude Include="engine\Render\Render.h" />
+    <ClInclude Include="file_tools.h" />
+    <ClInclude Include="game_utils.h" />
+    <ClInclude Include="gmod_specific\Functional\Aimbot.h" />
+    <ClInclude Include="gmod_specific\Functional\AntiAim.h" />
+    <ClInclude Include="gmod_specific\Functional\Dudos.h" />
+    <ClInclude Include="gmod_specific\Functional\EffectHook.h" />
+    <ClInclude Include="gmod_specific\Functional\Esp1.h" />
+    <ClInclude Include="gmod_specific\Functional\FriendList.h" />
+    <ClInclude Include="gmod_specific\Functional\LagCompensation.h" />
+    <ClInclude Include="gmod_specific\Functional\Misc.h" />
+    <ClInclude Include="gmod_specific\Functional\net_logger.h" />
+    <ClInclude Include="gmod_specific\Functional\ServerAnimations.h" />
+    <ClInclude Include="gmod_specific\Functional\Teams.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\CreateMove.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\EmitSound.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\EyeAngles.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\FireBullets.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\FrameStageNotify.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\GetViewAngles.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\PostDataUpdate.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\ProcessTempEntities.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\ReadPixels.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\RenderView.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\RunCommand.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SceneBegin.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SendDatagram.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SendNetMsg.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SetupBones.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SetView.h" />
+    <ClInclude Include="gmod_specific\Hooks\Hooks.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\Paint.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\PaintTransverse.h" />
+    <ClInclude Include="gmod_specific\Hooks\Handles\SceneEnd.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\bitvec.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\buf.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CClientState.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\checksum.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CInput.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CInputSystem.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\ClentModeShared.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\Client.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CRC.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CRender.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\CUtlMemory.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\debug_overlay.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\Definition.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\EngineSound.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\EntList.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\Glow_outline_effect.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IClientTools.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IEngineTrace.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IEngineVGui.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IMaterialSystem.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IPhysicProps.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IPlayerInfoManager.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\ISurface.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IViewRender.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IVModelInfo.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IVModelRender.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\IVRenderView.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\KeyValues.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\linkedlist.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\memalloc.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\utlstack.h" />
+    <ClInclude Include="gmod_specific\SDK\Entity.h" />
+    <ClInclude Include="gmod_specific\SDK\Lua\Lua_shit.h" />
+    <ClInclude Include="gmod_specific\Math\core.hpp" />
+    <ClInclude Include="gmod_specific\Math\qangle.hpp" />
+    <ClInclude Include="gmod_specific\Math\vector.hpp" />
+    <ClInclude Include="gmod_specific\Math\vector2d.hpp" />
+    <ClInclude Include="gmod_specific\Math\vector4d.hpp" />
+    <ClInclude Include="gmod_specific\SDK\Engine\math_pfns.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\NetWork.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\Prediction.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\ReciveProp.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\Consth.h" />
+    <ClInclude Include="gmod_specific\SDK.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\sharedapix9.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\StudioRender.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\UtlBuffer.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\UtlVector.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\VEngineCvar.h" />
+    <ClInclude Include="gmod_specific\SDK\Engine\VGui.h" />
+    <ClInclude Include="gmod_specific\SDK\tslist.h" />
+    <ClInclude Include="gmod_specific\Util\EngineDraw.h" />
+    <ClInclude Include="gmod_specific\Util\netprop_manager.h" />
+    <ClInclude Include="include\hde\hde.h" />
+    <ClInclude Include="include\hde\hdedefines.h" />
+    <ClInclude Include="include\memcpy_fast.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="gmod_specific\Functional\MovementRecorder.h" />
+    <ClInclude Include="lua_features.h" />
+    <ClInclude Include="lua_shared.h" />
+    <ClInclude Include="imgui\im_tools.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_freetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_stdlib.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\TextEditor.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="include\hde.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{ecddf65d-7049-4977-9802-0f5643396e4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
