@@ -1,8 +1,13 @@
-# ZepamGMOD
+# _Fixed-CFF-For-Gmod_
 
-## Deps
+>This is fixed and working version of CFF for Garry's mod.
 
-[https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
-
+## Installation
+Install [vcpkg](https://vcpkg.io/en/index.html)
+Enter these commands:
+```
 vcpkg integrate install
 vcpkg install freetype:x86-windows-static
+```
+Done
+
