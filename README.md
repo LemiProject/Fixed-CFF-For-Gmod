@@ -4,6 +4,7 @@
 
 ## Installation
 Install [vcpkg](https://vcpkg.io/en/index.html)
+
 Enter these commands:
 ```
 vcpkg integrate install
